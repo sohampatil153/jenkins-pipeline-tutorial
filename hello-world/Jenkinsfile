@@ -19,6 +19,7 @@ pipeline {
         stage('Run Unit Tests') {
             steps {
                 echo 'Run unit tests from the source code' 
+                echo 'sample change made'
             }
         }
         stage('Run Integration Tests') {
